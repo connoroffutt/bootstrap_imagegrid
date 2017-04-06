@@ -1,0 +1,27 @@
+.btn {
+    border: 1px solid black;
+    padding-bottom: 2%;
+    padding-top: 3%;
+}
+
+.btn:hover {
+    background-color: lightgrey;
+    border: 1px solid grey;
+}
+
+.btn:active {
+    background-color: darkgrey;
+}
+
+.btn.active {
+    background-color: lightblue;
+    border: 0;
+}
+.btn:focus {
+    background-color: red;
+}
+
+.caption p {
+    padding-top: 2%;
+    display: inline-block;
+}
